@@ -1,0 +1,38 @@
+GET http://localhost:3000/products
+
+###
+
+POST http://localhost:3000/products HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "S24 SAMSUNG",
+    "description": "Smartphone 8gb",
+    "image_url": "www.google.com",
+    "price": 1000
+}
+
+
+
+###
+
+GET http://localhost:3000/products/af5a6326-305e-4328-8cf9-09a1be683209 HTTP/1.1
+Content-Type: application/json
+
+
+###
+
+Patch http://localhost:3000/products/af5a6326-305e-4328-8cf9-09a1be683209 HTTP/1.1
+Content-Type: application/json
+
+{
+    "price": 9000
+}
+
+
+###
+
+DELETE  http://localhost:3000/products/af5a6326-305e-4328-8cf9-09a1be683209 HTTP/1.1
+Content-Type: application/json
+
+

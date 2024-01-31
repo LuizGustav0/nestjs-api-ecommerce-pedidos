@@ -56,6 +56,11 @@ $ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
+
+
+docker-compose up -d
+
+docker compose exec db bash
 ```
 
 ## Support
@@ -67,6 +72,10 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 -   Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
 -   Website - [https://nestjs.com](https://nestjs.com/)
 -   Twitter - [@nestframework](https://twitter.com/nestframework)
+
+## command format all file with prettier
+
+npx prettier --write .
 
 ## License
 
