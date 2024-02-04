@@ -1,8 +1,8 @@
-GET http://localhost:3000/products
+GET http://localhost:3001/products
 
 ###
 
-POST http://localhost:3000/products HTTP/1.1
+POST http://localhost:3001/products HTTP/1.1
 Content-Type: application/json
 
 {
@@ -15,7 +15,7 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:3000/auth/login HTTP/1.1
+POST http://localhost:3001/auth/login HTTP/1.1
 Content-Type: application/json
 
 {
@@ -27,13 +27,13 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3000/products/af5a6326-305e-4328-8cf9-09a1be683209 HTTP/1.1
+GET http://localhost:3001/products/66805003-f9a2-4772-b577-d5ff66207707 HTTP/1.1
 Content-Type: application/json
 
 
 ###
 
-Patch http://localhost:3000/products/af5a6326-305e-4328-8cf9-09a1be683209 HTTP/1.1
+Patch http://localhost:3001/products/af5a6326-305e-4328-8cf9-09a1be683209 HTTP/1.1
 Content-Type: application/json
 
 {
@@ -43,25 +43,25 @@ Content-Type: application/json
 
 ###
 
-DELETE  http://localhost:3000/products/af5a6326-305e-4328-8cf9-09a1be683209 HTTP/1.1
+DELETE  http://localhost:3001/products/af5a6326-305e-4328-8cf9-09a1be683209 HTTP/1.1
 Content-Type: application/json
 
 
 ###
 
-GET http://localhost:3000/orders HTTP/1.1
+GET http://localhost:3001/orders HTTP/1.1
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInVzZXJuYW1lIjoidGVzdGUiLCJpYXQiOjE3MDY3MzA1ODIsImV4cCI6MTcwNjczMDY0Mn0.gBwV8s1RK5LkAKyqrkFXOALwX9lBeODHAyM8NFkINBU
 
 ###
 
-GET http://localhost:3000/orders/08cbc537-2332-4b33-8c45-7ec35396d616 HTTP/1.1
+GET http://localhost:3001/orders/08cbc537-2332-4b33-8c45-7ec35396d616 HTTP/1.1
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInVzZXJuYW1lIjoidGVzdGUiLCJpYXQiOjE3MDY3MzA1ODIsImV4cCI6MTcwNjczMDY0Mn0.gBwV8s1RK5LkAKyqrkFXOALwX9lBeODHAyM8NFkINBU
 
 
 
 ###
 
-POST http://localhost:3000/orders HTTP/1.1
+POST http://localhost:3001/orders HTTP/1.1
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInVzZXJuYW1lIjoidGVzdGUiLCJpYXQiOjE3MDY3MzI5MzcsImV4cCI6MTcwNjczMjk5N30.k8fqKd-AQwVAdz_SVckmtg3lOvI7ZojWMnobt2mvOJQ
 Content-Type: application/json
 
