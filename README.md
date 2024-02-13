@@ -52,6 +52,17 @@ $ npm install
 #Docker
 docker-compose up -d
 
+create queues in -> http://localhost:15672/#/queues
+queue name: orders
+and
+queue name: orders_result
+
+Routing key: and orders_result
+
+register exchanges -> amq.direct -> Bindings
+
+name: orders_result
+
 # DB
 npm run fixture
 
