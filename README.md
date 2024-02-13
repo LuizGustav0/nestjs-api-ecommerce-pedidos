@@ -28,13 +28,13 @@ This diagram is essential for understanding the structure and communication betw
 
 <img src="diagrama.jpg"  alt="Diagrama" />
 
-### Ordem para rodar:
+### Order to run:
 
-### **Catálogo:** <a href="https://github.com/LuizGustav0/go-api-ecommerce" target="_blank">Golang</a>
+### **Catalog:** <a href="https://github.com/LuizGustav0/go-api-ecommerce" target="_blank">Golang</a>
 
-### **Pedidos:** <a href="https://github.com/LuizGustav0/nestjs-api-ecommerce-pedidos" target="_blank">Nest.js</a>
+### **Orders:** <a href="https://github.com/LuizGustav0/nestjs-api-ecommerce-pedidos" target="_blank">Nest.js</a>
 
-### **Pagamentos:** <a href="https://github.com/LuizGustav0/go-api-payments-ecommerce" target="_blank">Golang</a>
+### **Payments:** <a href="https://github.com/LuizGustav0/go-api-payments-ecommerce" target="_blank">Golang</a>
 
 ### **Front-end:** <a href="https://github.com/LuizGustav0/nextjs-ecommerce" target="_blank">Next.js</a>
 
